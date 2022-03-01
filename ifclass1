@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Author : Dominique
+#Date : Feb 28, 2022
+
+#----------------------- Description ------------------------------
+# This script tests the value of a variable using if else then displays the result on screen
+    
+
+if
+
+  [ 2 -ne 4 ]
