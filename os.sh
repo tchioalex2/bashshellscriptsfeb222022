@@ -9,6 +9,8 @@
 
 OS=`cat /etc/os-release |grep ^ID= |awk -F'"' '{print$2}'`
 
+#For debian and Ubuntu, do this command: `cat /etc/os-release |grep ^ID= |awk -F'=' '{print$2}'`
+
 if
   [ ${OS} = centos ]
 
