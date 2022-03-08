@@ -29,3 +29,4 @@ fi
 
 
 echo -e "\nEverything was cleared successfully\n"
+exit 0
