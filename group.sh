@@ -17,7 +17,7 @@ if
 
   then
 echo
-  echo "group  ${GROUP_NAME} exist on this system"
+  echo "group  ${GROUP_NAME} exists on this system"
   echo
   else
 echo

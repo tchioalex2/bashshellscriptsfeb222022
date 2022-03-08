@@ -7,9 +7,9 @@ A=`arch | awk -F"_" '{print$2}'`
 
 if [ $A -eq 64 ]
 then
-echo "this system is 64 bits"
+echo -e "\nthis system is 64 bits\n"
 else
-echo"this system is 32 bits"
+echo -e "\nthis system is 32 bits\n"
 fi
 
 
