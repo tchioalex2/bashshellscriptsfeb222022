@@ -11,7 +11,7 @@ if
 	[ $? -eq 0 ]
 
 then
-echo -e "\nAll the containers have been cleared from the syste\nm"
+echo -e "\nAll the containers have been cleared from the system\n"
 fi
 
 sleep 5
@@ -23,7 +23,8 @@ docker rmi $(docker images -q) -f
 if
         [ $? -eq 0 ]
 then
-echo -e "\nAll the images have been cleared from the syste\nm"
+echo -e "\nAll the images have been cleared from the system\n"
 fi
 
 
+echo -e "\nEverything was cleared successfully\n"
