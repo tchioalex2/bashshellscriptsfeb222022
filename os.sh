@@ -9,6 +9,9 @@
 
 OS=`cat /etc/os-release |grep ^ID= |awk -F'"' '{print$2}'`
 
+#OS=`cat /etc/os-release | grep PRETTY_NAME= | awk -F'"' '{print$2}' | awk -F" " '{print$1}'`works for Centos, ubuntu and debian not on oracle!
+#For debian and Ubuntu, do this command: `cat /etc/os-release |grep ^ID= |awk -F'=' '{print$2}'`
+
 if
   [ ${OS} = centos ]
 
